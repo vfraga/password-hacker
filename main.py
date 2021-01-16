@@ -85,7 +85,7 @@ def stepbystepbruteforce(connection: socket) -> None:
 
 def bruteforce(connection: socket) -> None:
     """
-    Fisrt gets the username with getuser() and then loops through the bruteforce generator until the response is
+    First gets the username with getuser() and then loops through the bruteforce generator until the response is
     satisfactory.\n
     Prints the successful password.
 
